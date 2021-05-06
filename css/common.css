@@ -101,5 +101,41 @@
     background: url(../images/logo.png) no-repeat top left;
     font-size: 0px;
 }
-
+.search {
+    position: absolute;
+    left: 350px;
+    width: 540px;
+    height: 35px;
+    background-color: red;
+}
+.search input {
+    float: left;
+    width: 450px;
+    height: 35px;
+    padding-left: 10px;
+    border: 2px solid #b1191a;
+}
+.search button {
+    float: left;
+    width: 90px;
+    height: 35px;
+    border: 0px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #ffffff;
+    
+}
+.hotwords {
+    position: absolute;
+    left: 350px;
+    top: 35px;
+    height: 20px;
+    background-color : pink;
+}
+.hotwords ul {
+    float: left;
+}
+.hotwords ul li {
+    float: left;
+}
 /* header-end */
