@@ -129,13 +129,36 @@
     position: absolute;
     left: 350px;
     top: 35px;
-    height: 20px;
+    height: 15px;
+    margin-top: 5px;
     background-color : pink;
 }
 .hotwords ul {
     float: left;
+    height: 15px;
 }
 .hotwords ul li {
     float: left;
+    height: 15px;
+    margin: 0px 14px;
+}
+.shopcar {
+    position:absolute;
+    top: 0px;
+    left: 995px;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.3)
+}
+.car_logo {
+    float: left;
+    /* width: 22px; */
+    height: 18px;
+
+    line-height: 18px;
+    text-indent: 15px;
+
+    background: url(../images/icons.png) -416px -86px;
 }
 /* header-end */
