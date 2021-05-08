@@ -221,17 +221,26 @@
     width: 100%;
     height: 465px;
     margin-top: 1.5px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     background-color: #c81623;
 }
 .menu_detail ul li {
-    width: 100%;
+    /* width: 100%; */
     height: 38px;
-    line-height: 30px;
+    line-height: 38px;
+    /* border: 1px solid white; */
     margin: 0px 10px;
     font-size: 14px;
 }
 .menu_detail ul li a {
     color: #ffffff;
+}
+.menu_detail ul li a::after {
+    content: '\ea50';
+    font-family: 'icomoon';
+    float: right;
+    /* vertical-align: top; */
+    line-height: 38px;
+    /* padding-left: 8px; */
 }
 /* 主导航-end */
