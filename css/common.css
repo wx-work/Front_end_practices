@@ -23,7 +23,6 @@
 .topnav_contents {
     height: 30px;
     background-color: #f1f1f1;
-
 } 
 .topnav_login {
     float: left;
@@ -123,7 +122,6 @@
     background-color: #b1191a;
     font-size: 16px;
     color: #ffffff;
-    
 }
 .hotwords {
     position: absolute;
@@ -135,13 +133,11 @@
 .hotwords ul {
     overflow: hidden;
     height: 15px;
-
 }
 .hotwords ul li {
     float: left;
     margin: 0px 14px;
     height: 15px;
-
 }
 .hotwords ul li:first-child a {
     color: #e60012;
@@ -190,7 +186,6 @@
     background-color: #e60012;
     color: #fefefe;
     border-radius: 9px 9px 9px 0px;
-
 }
 /* header-end */
 
@@ -206,6 +201,7 @@
     border-bottom: 2px solid #b1191a;
 }
 .menu_all {
+    float: left;
     width: 220px;
 }
 .menu_title {
@@ -219,28 +215,48 @@
 }
 .menu_detail {
     width: 100%;
-    height: 465px;
+    height: 456px;
     margin-top: 1.5px;
-    /* padding-top: 10px; */
     background-color: #c81623;
 }
 .menu_detail ul li {
-    /* width: 100%; */
     height: 38px;
     line-height: 38px;
-    /* border: 1px solid white; */
-    margin: 0px 10px;
+    transition: all 0.5s;
     font-size: 14px;
 }
 .menu_detail ul li a {
+    margin: 0px 10px;
     color: #ffffff;
 }
 .menu_detail ul li a::after {
     content: '\ea50';
     font-family: 'icomoon';
     float: right;
-    /* vertical-align: top; */
     line-height: 38px;
-    /* padding-left: 8px; */
+    padding-right: 10px;
+    font-size: 16px;
+}
+.menu_detail ul li:hover {
+    background-color: #fff;
+    margin-left: 5px;
+}
+.menu_detail ul li:hover a {
+    color: #c81623;
+}
+.nav_items {
+    float: left;
+    margin-left: 40px;
+}
+.nav_items ul {
+    height: 48px;
+}
+.nav_items ul li {
+    float: left;
+    line-height: 48px;
+    margin-right: 50px;
+}
+.nav_items ul li a {
+    font-size: 16px;
 }
 /* 主导航-end */
