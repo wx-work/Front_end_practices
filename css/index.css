@@ -193,6 +193,12 @@
     height: 360px;
     overflow: hidden;
 }
+.ea-items img:hover {
+    margin-left: 10px;
+}
+.ea-items img {
+    transition: all .5s;
+}
 .ea-items ul li {
     float: left;
 }
