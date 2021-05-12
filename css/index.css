@@ -247,3 +247,31 @@
     border-bottom: 1px solid #d2d0d0;
 }
 /* 楼层模块-end */
+
+/* 固定导航模块-start */
+.fixed {
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+}
+.fixed ul li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.fixed ul li:first-child {
+    background-color: rgb(221, 27, 27);
+}
+.fixed ul li:first-child a {
+    color: #fff;
+}
+.fixed ul li:hover {
+    background-color: rgb(221, 27, 27);
+}
+.fixed ul li:hover a {
+    color: #fff;
+}
+/* 固定导航模块-end */
