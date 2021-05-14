@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>注册页</title>
+    <!-- 网页图标引入 -->
+    <link rel="shortcut icon" href="bitbug_favicon.ico" type="image/x-icon" />
     <!-- 基础以及注册页的css文件引入-->
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/register.css">
 
 </head>
 <body>
+
     <!-- head区域 -->
     <div class="head edition_center">
-        <img src="images/logo.png" alt="">
+        <a href="index.html">
+            <img src="images/logo.png" alt="">
+        </a>
     </div>
+    <!-- head区域 -->
+
     <!-- 主体区域 -->
     <div class="main edition_center">
         <div class="guide">
@@ -36,7 +43,7 @@
                 </li>
                 <li>
                     <label for="text">短信验证码：</label>
-                    <input type="number">
+                    <input type="number" id="text">
                 </li>
                 <li>
                     <label for="password">登录密码：</label>
@@ -60,14 +67,28 @@
                 </li>
                 <li>
                     <input type="checkbox" name="" id="check">
-                    <label for="check">
-                        同意协议并注册
-                    </label>
-                    <a href="#">用户协议</a>
+                    <label for="check">同意协议并注册</label>
+                    <a href="#">&lt&lt用户协议&gt&gt</a>
                 </li>
-                <li></li>
+                <li>
+                    <input type="submit" value="完成注册">
+                </li>
             </ul>
         </div>
     </div>
+    <!-- 主体区域 -->
+    
+    <!-- footer -->
+    <div class="footer">
+        <div class="edition_center">
+            <div class="copyright">
+                <p>关于我们  |  联系我们  |  联系客服  |  商家入驻  |  营销中心  |  手机品优购  |  友情链接  |  销售联盟  |  品优购社区  |  品优购公益  |  English Site  |  Contact U</p>
+                <p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn</p>
+                <p>京ICP备08001421号京公网安备110108007702</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
 </body>
 </html>
